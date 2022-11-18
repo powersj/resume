@@ -591,11 +591,11 @@
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-4mm}
+  \vspace{-3mm}
   \paragraphstyle
 }{%
   \par
-  \vspace{-1mm}
+  \vspace{2mm}
 }
 
 % Define an environment for cventry
@@ -616,17 +616,17 @@
 
 % Define an environment for cvsummary
 \newenvironment{cvsummary}{%
-  \vspace{-4.0mm}
+  \vspace{-2.0mm}
   \begin{justify}
 }{%
   \end{justify}
-  \vspace{-4.0mm}
+  \vspace{-2.0mm}
 }
 
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}{<summary>}
 \newcommand*{\cventry}[6]{%
-  \vspace{-3.0mm}
+  \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -643,7 +643,7 @@
 % Define an entry of cv information
 % Usage: \eduentry{<college>}{<major>}{<location>}{<date>}
 \newcommand*{\eduentry}[4]{%
-  \vspace{-3.0mm}
+  \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -716,7 +716,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
+  \vspace{-3.0mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -724,7 +724,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  \vspace{-3.0mm}
 }
 
 
